@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipy na výlety s dětmi od tety Hanky</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .main {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .main img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        .place {
+            margin-bottom: 30px;
+        }
+        .place h2 {
+            color: #333;
+        }
+        .place p {
+            color: #666;
+        }
+        .place a {
+            color: #0779e4;
+            text-decoration: none;
+        }
+        .place a:hover {
+            text-decoration: underline;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #0779e4;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tipy na výlety s dětmi od tety Hanky</h1>
+        </div>
+    </header>
+    <nav>
+        <a href="#castolovice">Zámek Častolovice</a>
+        <a href="#muzeum-hracek">Muzeum hraček</a>
+        <a href="#zamek-rychnov">Zámek Rychnov</a>
+        <a href="#kupaliste">Jiráskovo koupaliště</a>
+        <a href="#hrad-potstejn">Hrad Potštejn</a>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <div id="castolovice" class="place">
+                <h2>Zámek Častolovice</h2>
+                <img src="https://www.zamek-castolovice.cz/images/castolovice.jpg" alt="Zámek Častolovice">
+                <p><strong>Vzdálenost:</strong> cca 12 km, dojezd asi 15 minut</p>
+                <p>Renesanční zámek s bohatou historií nabízí krásné interiéry a rozsáhlý zámecký park s oborou, kde děti mohou pozorovat daňky, jeleny a další zvířata. V zámeckém areálu je také dětské hřiště a mini zoo s domácími zvířaty.</p>
+                <p><strong>Otevírací doba:</strong> Duben – říjen: Denně 9:00 - 17:00</p>
+                <p><strong>Vstupné:</strong> Dospělí: 130 Kč, Děti (6-15 let): 90 Kč, Rodinné vstupné: 350 Kč</p>
+                <p><a href="https://www.zamek-castolovice.cz">Více informací</a></p>
+                <p><strong>Nejbližší restaurace:</strong> <a href="https://www.hotel-zamek.cz/cz/restaurace/" target="_blank">Restaurace Zámku Častolovice</a></p>
+                <p><strong>Otevírací doba restaurace:</strong> Denně 11:00 - 22:00</p>
+                <p><strong>Vzdálenost:</strong> 2 minuty pěšky (v areálu zámku)</p>
+                <p><strong>Parkování:</strong> Bezplatné parkoviště v areálu zámku</p>
+            </div>
+            <div id="muzeum-hracek" class="place">
+                <h2>Muzeum hraček v Rychnově nad Kněžnou</h2>
+                <img src="https://www.rychnovcity.cz/images/muzeum-hracek.jpg" alt="Muzeum hraček">
+                <p><strong>Vzdálenost:</strong> cca 16 km, dojezd asi 20 minut</p>
+                <p>Muzeum hraček nabízí fascinující pohled na historické i moderní hračky, které zaujmou nejen děti, ale i dospělé, kteří si mohou zavzpomínat na své dětství. Expozice obsahuje širokou škálu hraček od různých výrobců a z různých období.</p>
+                <p><strong>Otevírací doba:</strong> Úterý - Neděle: 9:00 - 16:00</p>
+                <p><strong>Vstupné:</strong> Dospělí: 50 Kč, Děti (6-15 let): 30 Kč, Rodinné vstupné: 120 Kč</p>
+                <p><a href="https://www.rychnovcity.cz/muzeum-hracek/d-1848">Více informací</a></p>
+                <p><strong>Nejbližší restaurace:</strong> <a href="http://www.restauraceuveze.cz/" target="_blank">Restaurace U Věže</a></p>
+                <p><strong>Otevírací doba restaurace:</strong> Po - So: 11:00 - 22:00, Ne: 11:00 - 21:00</p>
+                <p><strong>Vzdálenost:</strong> 5 minut pěšky (300 m)</p>
+                <p><strong>Parkování:</strong> Veřejné parkoviště v blízkosti restaurace</p>
+            </div>
+            <div id="zamek-rychnov" class="place">
+                <h2>Zámek Rychnov nad Kněžnou</h2>
+                <img src="https://www.zamekrychnov.cz/images/rychnov.jpg" alt="Zámek Rychnov nad Kněžnou">
+                <p><strong>Vzdálenost:</strong> cca 16 km, dojezd asi 20 minut</p>
+                <p>Barokní zámek Rychnov nad Kněžnou je známý svou bohatou historií a krásnou architekturou. V zámku najdete rozsáhlé sbírky obrazů, nábytku a dalších historických artefaktů. Pro rodiny s dětmi jsou k dispozici speciální prohlídky, které jsou přizpůsobeny zájmům mladších návštěvníků. Zámek je obklopen krásným parkem, kde si děti mohou hrát a běhat.</p>
+                <p><strong>Otevírací doba:</strong> Duben – říjen: Úterý - Neděle, 9:00 - 17:00 (polední přestávka 12:00 - 13:00). Listopad – březen: pouze po předchozí domluvě</p>
+                <p><strong>Vstupné:</strong> Dospělí: 130 Kč, Děti (6-15 let): 90 Kč, Rodinné vstupné: 340 Kč</p>
+                <p><a href="https://www.zamekrychnov.cz">Více informací</a></p>
+                <p><strong>Nejbližší restaurace:</strong> <a href="https://www.zamekrychnov.cz/restaurace" target="_blank">Zámecká restaurace Rychnov</a></p>
+                <p><strong>Otevírací doba restaurace:</strong> Denně 11:00 - 22:00</p>
+                <p><strong>Vzdálenost:</strong> 2 minuty pěšky (v areálu zámku)</p>
+                <p><strong>Parkování:</strong> Bezplatné parkoviště v areálu zámku</p>
+            </div>
+            <div id="kupal
